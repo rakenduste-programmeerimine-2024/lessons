@@ -64,7 +64,23 @@ console.log(greet("Raimo"));
 
 // 8. Ülesanne: liita igale elemendile juurde +5, et uuel muutujale omandaks [6, 7, 8, 9, 10] väärtuse
 
+const newArray = [1, 2, 3, 4, 5];
+
+const addedArray = newArray.map((element) => element + 5);
+
+console.log(addedArray);
+
 // 9. Käime läbi ka erinevaid 3 parameetrit, mida saab map ja filtriga välja kutsuda
+
+const threeParameters = newArray.map((element, index, array) => {
+  console.log(element, index, array);
+
+  const added = 1 + 2;
+
+  return element + 5;
+});
+
+console.log({ threeParameters: threeParameters });
 
 // 10. Muudame objektiks, et console.log-ides oleks paremini märgata
 
