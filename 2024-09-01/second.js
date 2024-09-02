@@ -55,6 +55,11 @@ console.log(addNumbersNestedAF(9)(102));
 
 // 7. Ülesanne: AF printida "Hello (nimi)" ja kasutada string literals
 
+const greet = (name = "World") => `Hello ${name}`;
+
+console.log(greet());
+console.log(greet("Raimo"));
+
 // Teema: map ja filter
 
 // 8. Ülesanne: liita igale elemendile juurde +5, et uuel muutujale omandaks [6, 7, 8, 9, 10] väärtuse
