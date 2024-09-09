@@ -79,27 +79,3 @@ const threeParameters = newArray.map((element, index, array) => {
 
   return element + 5;
 });
-
-console.log({ threeParameters: threeParameters });
-
-// 10. Muudame objektiks, et console.log-ides oleks paremini märgata
-
-// Filter
-
-// 11, Ülesanne: filtreerida välja uuesti massiivist kõik elemendid, mis on suuremad kui 4
-
-// 12. Ülesanne: Luua nimede massivi põhjal objektide massiv, mis koosneb sellisel kujul objektidest:
-
-// {
-//   name: 'Anni',
-//   age: 24,
-//   email: 'anni@company.com',
-//   address: 'Anni Street 55',
-//   username: 'innA'
-// }
-
-// 13. Tahame juurde lisada pikkuse ja jätta eelnevad kõik andmed samaks, spread syntax
-
-// 14. Tahame muuta eelnevatest andmetest midagi jättes teised samaks
-
-// 15. == / ===
